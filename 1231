@@ -5,7 +5,7 @@ def guess_the_number():
     max_attempts = 5
     attempts = 0
 
-    print("Добро пожаловать в игру 'Угадай число'!")
+    print("Добро пожаловать в игру!!! 'Угадай число'!")
     print(f"Я загадал число от 1 до 100. У вас есть {max_attempts} попыток.")
 
     while attempts < max_attempts:
@@ -18,10 +18,17 @@ def guess_the_number():
             print("Загаданное число меньше.")
         else:
             print(f"Поздравляю! Вы угадали число {target_number} за {attempts} попыток.")
-            return 10
+        
+
+
+
+
 
     print("Вы исчерпали все попытки. Правильный ответ был:", target_number)
     return 0
+
+
+
 
 def math_quiz():
     number1 = random.randint(1, 10)
