@@ -18,17 +18,9 @@ def guess_the_number():
             print("Загаданное число меньше.")
         else:
             print(f"Поздравляю! Вы угадали число {target_number} за {attempts} попыток.")
-        
-
-
-
-
 
     print("Вы исчерпали все попытки. Правильный ответ был:", target_number)
-    return 0
-
-
-
+    return 
 
 def math_quiz():
     number1 = random.randint(1, 10)
