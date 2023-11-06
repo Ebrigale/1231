@@ -65,7 +65,7 @@ def word_guess():
 def main():
     score = 0
 
-    print("Добро пожаловать в сложную рандомную игру!")
+    print("Добро пожаловать в сложную рандомную игру!RUSSIAN PIDARASSIAN")
 
     while True:
         print("Выберите задание:")
