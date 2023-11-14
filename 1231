@@ -5,19 +5,13 @@ def guess_the_number():
     max_attempts = 5
     attempts = 0
 
-    print("Добро пожаловать в игру!!! 'Угадай число'!")
-    print(f"Я загадал число от 1 до 100. У вас есть {max_attempts} попыток.")
-
-    while attempts < max_attempts:
-        user_guess = int(input("Попробуйте угадать: "))
+    print("Доб       user_guess = int(input("Попробуйте угадать: "))
         attempts += 1
 
         if user_guess < target_number:
             print("Загаданное число больше.")
         elif user_guess > target_number:
-            print("Загаданное число меньше.")
-        else:
-            print(f"Поздравляю! Вы угадали число {target_number} за {attempts} попыток.")
+            print("Загаданное число меньш
 
     print("Вы исчерпали все попытки. Правильный ответ был:", target_number)
     return 
@@ -36,15 +30,7 @@ def math_quiz():
 
     if operator == '+':
         result = number1 + number2
-    elif operator == '-':
-        result = number1 - number2
-    elif operator == '*':
-        result = number1 * number2
-
-    if user_answer == result:
-        print("Правильно! Вы заработали 20 очков.")
-        return 20
-    else:
+   
         print(f"Неправильно. Правильный ответ: {result}")
         return 0
 
