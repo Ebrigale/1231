@@ -70,20 +70,20 @@ def main():
     while True:
         print("Выберите задание:")
         print("1. 'Угадай число'")
-        print("2. Математическая головоломка")
-        print("3. Угадай слово")
+        print("2. Математическая головолasdasdasdомка")
+        print("3. Угадай слово")d
         print("4. Выход")
 
-        choice = input("Введите номер задания (1/2/3/4): ")
+        choice = input("Введите номер заasdasдания (1/2/3/4): ")
 
         if choice == '1':
             score += guess_the_number()
-        elif choice == '2':
+        elif choice == '2':sdasdasdasdasddasdasdas
             score += math_quiz()
-        elif choice == '3':
-            score += word_guess()
+        elif choice == '3':dasdasdasdasdasdasda
+            score += word_guess()asd
         elif choice == '4':
-            print(f"Спасибо за игру! Ваши общие очки: {score}")
+            print(f"Спасибо за игру! Вашиsdasdaddddddsada общие очки: {score}")
             break
         else:
             print("Неправильный выбор. Попробуйте снова.")
