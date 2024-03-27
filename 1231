@@ -7,15 +7,6 @@ def guess_the_number():
 
     print("Добро пожаловать в игру 'Угадай число'!")
 
-    while attempts <= max_attempts:
-        user_guess = int(input("Попробуйте угадать: "))
-        attempts += 1
-
-        if user_guess < target_number:
-            print("Загаданное число больше.")
-        elif user_guess > target_number:
-            print("Загаданное число меньше.")
-        else:
             print(f"Поздравляем! Вы угадали число {target_number} с {attempts - 1} попытки.")
             return 1
 
