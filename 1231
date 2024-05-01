@@ -5,12 +5,6 @@ def guess_the_number():
     max_attempts = 10
     attempts = 1
 
-    print("Добро пожаловать в игру 'Угадай число'!")
-
-            print(f"Поздравляем! Вы угадали число {target_number} с {attempts - 1} попытки.")
-            return 1
-
-    print(f"Вы исчерпали все попытки. Правильный ответ был: {target_number}")
     return 0
 
 def math_quiz():
